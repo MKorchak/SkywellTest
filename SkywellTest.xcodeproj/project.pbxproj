@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EDAEC291E3788C700E68E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC281E3788C700E68E05 /* AppDelegate.swift */; };
+		3EDAEC2B1E3788C700E68E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC2A1E3788C700E68E05 /* ViewController.swift */; };
+		3EDAEC2E1E3788C700E68E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEC2C1E3788C700E68E05 /* Main.storyboard */; };
+		3EDAEC311E3788C700E68E05 /* SkywellTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC2F1E3788C700E68E05 /* SkywellTest.xcdatamodeld */; };
+		3EDAEC331E3788C700E68E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEC321E3788C700E68E05 /* Assets.xcassets */; };
+		3EDAEC361E3788C700E68E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEC341E3788C700E68E05 /* LaunchScreen.storyboard */; };
+		3EDAEC411E3788C700E68E05 /* SkywellTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC401E3788C700E68E05 /* SkywellTestTests.swift */; };
+		3EDAEC4C1E3788C700E68E05 /* SkywellTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC4B1E3788C700E68E05 /* SkywellTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EDAEC3D1E3788C700E68E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDAEC1D1E3788C600E68E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDAEC241E3788C600E68E05;
+			remoteInfo = SkywellTest;
+		};
+		3EDAEC481E3788C700E68E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDAEC1D1E3788C600E68E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDAEC241E3788C600E68E05;
+			remoteInfo = SkywellTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EDAEC251E3788C700E68E05 /* SkywellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkywellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAEC281E3788C700E68E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDAEC2A1E3788C700E68E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDAEC2D1E3788C700E68E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EDAEC301E3788C700E68E05 /* SkywellTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkywellTest.xcdatamodel; sourceTree = "<group>"; };
+		3EDAEC321E3788C700E68E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDAEC351E3788C700E68E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EDAEC371E3788C700E68E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDAEC3C1E3788C700E68E05 /* SkywellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkywellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAEC401E3788C700E68E05 /* SkywellTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkywellTestTests.swift; sourceTree = "<group>"; };
+		3EDAEC421E3788C700E68E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDAEC471E3788C700E68E05 /* SkywellTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkywellTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAEC4B1E3788C700E68E05 /* SkywellTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkywellTestUITests.swift; sourceTree = "<group>"; };
+		3EDAEC4D1E3788C700E68E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDAEC221E3788C600E68E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC391E3788C700E68E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC441E3788C700E68E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDAEC1C1E3788C600E68E05 = {
+			isa = PBXGroup;
+			children = (
+				3EDAEC271E3788C700E68E05 /* SkywellTest */,
+				3EDAEC3F1E3788C700E68E05 /* SkywellTestTests */,
+				3EDAEC4A1E3788C700E68E05 /* SkywellTestUITests */,
+				3EDAEC261E3788C700E68E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDAEC261E3788C700E68E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDAEC251E3788C700E68E05 /* SkywellTest.app */,
+				3EDAEC3C1E3788C700E68E05 /* SkywellTestTests.xctest */,
+				3EDAEC471E3788C700E68E05 /* SkywellTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDAEC271E3788C700E68E05 /* SkywellTest */ = {
+			isa = PBXGroup;
+			children = (
+				3EDAEC281E3788C700E68E05 /* AppDelegate.swift */,
+				3EDAEC2A1E3788C700E68E05 /* ViewController.swift */,
+				3EDAEC2C1E3788C700E68E05 /* Main.storyboard */,
+				3EDAEC321E3788C700E68E05 /* Assets.xcassets */,
+				3EDAEC341E3788C700E68E05 /* LaunchScreen.storyboard */,
+				3EDAEC371E3788C700E68E05 /* Info.plist */,
+				3EDAEC2F1E3788C700E68E05 /* SkywellTest.xcdatamodeld */,
+			);
+			path = SkywellTest;
+			sourceTree = "<group>";
+		};
+		3EDAEC3F1E3788C700E68E05 /* SkywellTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDAEC401E3788C700E68E05 /* SkywellTestTests.swift */,
+				3EDAEC421E3788C700E68E05 /* Info.plist */,
+			);
+			path = SkywellTestTests;
+			sourceTree = "<group>";
+		};
+		3EDAEC4A1E3788C700E68E05 /* SkywellTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EDAEC4B1E3788C700E68E05 /* SkywellTestUITests.swift */,
+				3EDAEC4D1E3788C700E68E05 /* Info.plist */,
+			);
+			path = SkywellTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDAEC241E3788C600E68E05 /* SkywellTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDAEC501E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTest" */;
+			buildPhases = (
+				3EDAEC211E3788C600E68E05 /* Sources */,
+				3EDAEC221E3788C600E68E05 /* Frameworks */,
+				3EDAEC231E3788C600E68E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkywellTest;
+			productName = SkywellTest;
+			productReference = 3EDAEC251E3788C700E68E05 /* SkywellTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EDAEC3B1E3788C700E68E05 /* SkywellTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDAEC531E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTestTests" */;
+			buildPhases = (
+				3EDAEC381E3788C700E68E05 /* Sources */,
+				3EDAEC391E3788C700E68E05 /* Frameworks */,
+				3EDAEC3A1E3788C700E68E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDAEC3E1E3788C700E68E05 /* PBXTargetDependency */,
+			);
+			name = SkywellTestTests;
+			productName = SkywellTestTests;
+			productReference = 3EDAEC3C1E3788C700E68E05 /* SkywellTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EDAEC461E3788C700E68E05 /* SkywellTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDAEC561E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTestUITests" */;
+			buildPhases = (
+				3EDAEC431E3788C700E68E05 /* Sources */,
+				3EDAEC441E3788C700E68E05 /* Frameworks */,
+				3EDAEC451E3788C700E68E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDAEC491E3788C700E68E05 /* PBXTargetDependency */,
+			);
+			name = SkywellTestUITests;
+			productName = SkywellTestUITests;
+			productReference = 3EDAEC471E3788C700E68E05 /* SkywellTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDAEC1D1E3788C600E68E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Misha Korchak";
+				TargetAttributes = {
+					3EDAEC241E3788C600E68E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9JZVXE246;
+						ProvisioningStyle = Automatic;
+					};
+					3EDAEC3B1E3788C700E68E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9JZVXE246;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EDAEC241E3788C600E68E05;
+					};
+					3EDAEC461E3788C700E68E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9JZVXE246;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EDAEC241E3788C600E68E05;
+					};
+				};
+			};
+			buildConfigurationList = 3EDAEC201E3788C600E68E05 /* Build configuration list for PBXProject "SkywellTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDAEC1C1E3788C600E68E05;
+			productRefGroup = 3EDAEC261E3788C700E68E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDAEC241E3788C600E68E05 /* SkywellTest */,
+				3EDAEC3B1E3788C700E68E05 /* SkywellTestTests */,
+				3EDAEC461E3788C700E68E05 /* SkywellTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDAEC231E3788C600E68E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDAEC361E3788C700E68E05 /* LaunchScreen.storyboard in Resources */,
+				3EDAEC331E3788C700E68E05 /* Assets.xcassets in Resources */,
+				3EDAEC2E1E3788C700E68E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC3A1E3788C700E68E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC451E3788C700E68E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDAEC211E3788C600E68E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDAEC2B1E3788C700E68E05 /* ViewController.swift in Sources */,
+				3EDAEC311E3788C700E68E05 /* SkywellTest.xcdatamodeld in Sources */,
+				3EDAEC291E3788C700E68E05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC381E3788C700E68E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDAEC411E3788C700E68E05 /* SkywellTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDAEC431E3788C700E68E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDAEC4C1E3788C700E68E05 /* SkywellTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDAEC3E1E3788C700E68E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDAEC241E3788C600E68E05 /* SkywellTest */;
+			targetProxy = 3EDAEC3D1E3788C700E68E05 /* PBXContainerItemProxy */;
+		};
+		3EDAEC491E3788C700E68E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDAEC241E3788C600E68E05 /* SkywellTest */;
+			targetProxy = 3EDAEC481E3788C700E68E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EDAEC2C1E3788C700E68E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDAEC2D1E3788C700E68E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EDAEC341E3788C700E68E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDAEC351E3788C700E68E05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDAEC4E1E3788C700E68E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDAEC4F1E3788C700E68E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDAEC511E3788C700E68E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3EDAEC521E3788C700E68E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3EDAEC541E3788C700E68E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkywellTest.app/SkywellTest";
+			};
+			name = Debug;
+		};
+		3EDAEC551E3788C700E68E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkywellTest.app/SkywellTest";
+			};
+			name = Release;
+		};
+		3EDAEC571E3788C700E68E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkywellTest;
+			};
+			name = Debug;
+		};
+		3EDAEC581E3788C700E68E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J9JZVXE246;
+				INFOPLIST_FILE = SkywellTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.SkywellTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkywellTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDAEC201E3788C600E68E05 /* Build configuration list for PBXProject "SkywellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEC4E1E3788C700E68E05 /* Debug */,
+				3EDAEC4F1E3788C700E68E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDAEC501E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEC511E3788C700E68E05 /* Debug */,
+				3EDAEC521E3788C700E68E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EDAEC531E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEC541E3788C700E68E05 /* Debug */,
+				3EDAEC551E3788C700E68E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EDAEC561E3788C700E68E05 /* Build configuration list for PBXNativeTarget "SkywellTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEC571E3788C700E68E05 /* Debug */,
+				3EDAEC581E3788C700E68E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EDAEC2F1E3788C700E68E05 /* SkywellTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EDAEC301E3788C700E68E05 /* SkywellTest.xcdatamodel */,
+			);
+			currentVersion = 3EDAEC301E3788C700E68E05 /* SkywellTest.xcdatamodel */;
+			path = SkywellTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3EDAEC1D1E3788C600E68E05 /* Project object */;
+}
