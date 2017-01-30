@@ -18,8 +18,8 @@ class CarListTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        carLabel.text = AddCarViewController().carLabel.text
-        priceLabel.text = AddCarViewController().priceLabel.text
+        carLabel.text = NSLocalizedString("car: ", comment: "car name")
+        priceLabel.text = NSLocalizedString("Price: ", comment: "car price")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -48,8 +48,8 @@ class TitleViewController: UIViewController, UITableViewDelegate, UITableViewDat
         carCondition.text = NSLocalizedString("Condition: ", comment: "condition") + (car.condition!)
         carDesription.text = car.carDescription
         print(arrayOfPhotos.count)
-        carLabel.text = AddCarViewController().carLabel.text
-        priceLabel.text = AddCarViewController().priceLabel.text
+        carLabel.text = NSLocalizedString("car: ", comment: "car name")
+        priceLabel.text = NSLocalizedString("Price: ", comment: "car price")
         title = NSLocalizedString("Title", comment: "Title of car title")
 
     }

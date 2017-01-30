@@ -167,7 +167,7 @@
             </trans-unit>
             <trans-unit id="Engine: ">
                 <source>Engine: </source>
-                <target>Двигатель</target>
+                <target>Двигатель: </target>
                 <note>engine</note>
             </trans-unit>
             <trans-unit id="Price">

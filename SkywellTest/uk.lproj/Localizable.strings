@@ -17,7 +17,7 @@
 "Engine" = "Двигатель";
 
 /* engine */
-"Engine: " = "Двигатель";
+"Engine: " = "Двигатель: ";
 
 /* car price placeholder */
 "Price" = "Цена";
@@ -39,12 +39,6 @@
 
 /* bad */
 "bad" = "плохое";
-
-/* burundi */
-"burundi" = "бурунди";
-
-/* cambodia */
-"cambodia" = "камбоджа";
 
 /* car name */
 "car: " = "модель: ";

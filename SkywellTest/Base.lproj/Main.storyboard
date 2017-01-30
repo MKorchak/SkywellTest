@@ -76,9 +76,9 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="car:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="os1-hb-bT4">
-                                                    <rect key="frame" x="120" y="0.0" width="42" height="21"/>
+                                                    <rect key="frame" x="120" y="0.0" width="152" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="42" id="1dg-xo-wbD"/>
+                                                        <constraint firstAttribute="width" constant="152" id="1dg-xo-wbD"/>
                                                         <constraint firstAttribute="height" constant="21" id="ApA-bf-vU9"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -120,7 +120,7 @@
                                                 <constraint firstItem="Kd9-C6-mVr" firstAttribute="leading" secondItem="V9A-oA-90a" secondAttribute="leading" id="Kfq-yz-yyk"/>
                                                 <constraint firstItem="V9A-oA-90a" firstAttribute="top" secondItem="Kd9-C6-mVr" secondAttribute="bottom" constant="8" symbolic="YES" id="LRY-zJ-8yf"/>
                                                 <constraint firstItem="MtY-Fa-VwG" firstAttribute="top" secondItem="Kd9-C6-mVr" secondAttribute="bottom" constant="28" id="MI6-PP-lcg"/>
-                                                <constraint firstItem="os1-hb-bT4" firstAttribute="trailing" secondItem="Kd9-C6-mVr" secondAttribute="trailing" id="Pg2-sU-rS2"/>
+                                                <constraint firstItem="os1-hb-bT4" firstAttribute="trailing" secondItem="Kd9-C6-mVr" secondAttribute="trailing" constant="110" id="Pg2-sU-rS2"/>
                                                 <constraint firstItem="os1-hb-bT4" firstAttribute="leading" secondItem="9H6-QI-vWa" secondAttribute="trailing" constant="8" symbolic="YES" id="TqL-B3-6G8"/>
                                                 <constraint firstItem="9H6-QI-vWa" firstAttribute="leading" secondItem="CdN-AL-AqY" secondAttribute="leading" id="TtM-es-vAQ"/>
                                                 <constraint firstAttribute="bottom" secondItem="9H6-QI-vWa" secondAttribute="bottom" id="UCu-gd-eZt"/>
@@ -209,10 +209,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="car:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pss-2y-faH">
-                                        <rect key="frame" x="15" y="229" width="42" height="21"/>
+                                        <rect key="frame" x="15" y="229" width="163" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="OHz-Im-gOm"/>
-                                            <constraint firstAttribute="width" constant="42" id="WS7-Jb-I9h"/>
+                                            <constraint firstAttribute="width" constant="163" id="WS7-Jb-I9h"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -354,9 +354,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="604" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="car:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44M-wT-jat">
-                                        <rect key="frame" x="20" y="62" width="42" height="21"/>
+                                        <rect key="frame" x="20" y="62" width="273" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="aBD-EK-Lqu"/>
+                                            <constraint firstAttribute="width" constant="273" id="aBD-EK-Lqu"/>
                                             <constraint firstAttribute="height" constant="21" id="oTL-Hb-pfu"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -454,7 +454,7 @@
                                     <constraint firstItem="tGn-Er-KzH" firstAttribute="centerX" secondItem="t1n-oA-lSf" secondAttribute="centerX" id="Gg3-af-5Hm"/>
                                     <constraint firstItem="5jo-T7-RmN" firstAttribute="leading" secondItem="mlX-ED-oJR" secondAttribute="leading" id="GzO-B2-MLe"/>
                                     <constraint firstItem="tIO-OK-QOS" firstAttribute="top" secondItem="GrN-F2-N21" secondAttribute="bottom" constant="8" symbolic="YES" id="IgL-cp-3D0"/>
-                                    <constraint firstItem="44M-wT-jat" firstAttribute="trailing" secondItem="GrN-F2-N21" secondAttribute="trailing" id="JF9-9o-HY4"/>
+                                    <constraint firstItem="44M-wT-jat" firstAttribute="trailing" secondItem="GrN-F2-N21" secondAttribute="trailing" constant="231" id="JF9-9o-HY4"/>
                                     <constraint firstItem="5jo-T7-RmN" firstAttribute="trailing" secondItem="mlX-ED-oJR" secondAttribute="trailing" id="JIf-aW-yth"/>
                                     <constraint firstItem="evx-zy-an7" firstAttribute="top" secondItem="mlX-ED-oJR" secondAttribute="bottom" constant="41" id="KZf-26-rsV"/>
                                     <constraint firstItem="44M-wT-jat" firstAttribute="top" secondItem="t1n-oA-lSf" secondAttribute="top" constant="126" id="PKL-Qw-diZ"/>

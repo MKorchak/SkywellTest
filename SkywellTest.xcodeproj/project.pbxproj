@@ -13,10 +13,10 @@
 		3E5F24931E3D1815002EF64F /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F24911E3D1815002EF64F /* Car+CoreDataProperties.swift */; };
 		3ED5845A1E3F61C100969FED /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED584591E3F61C100969FED /* TitleViewController.swift */; };
 		3ED5845C1E3F68C000969FED /* CarImageSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5845B1E3F68C000969FED /* CarImageSecondTableViewCell.swift */; };
-		3ED5845F1E3F941900969FED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584611E3F941900969FED /* Localizable.strings */; };
-		3ED584641E3F941A00969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584661E3F941A00969FED /* InfoPlist.strings */; };
-		3ED5846B1E3F941E00969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5846D1E3F941E00969FED /* InfoPlist.strings */; };
-		3ED584701E3F942300969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584721E3F942300969FED /* InfoPlist.strings */; };
+		3ED5848A1E3F9D1600969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584891E3F9D1600969FED /* InfoPlist.strings */; };
+		3ED5848D1E3F9D6B00969FED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5848F1E3F9D6B00969FED /* Localizable.strings */; };
+		3ED584921E3F9D6C00969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584941E3F9D6C00969FED /* InfoPlist.strings */; };
+		3ED584981E3F9D6D00969FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED584971E3F9D6D00969FED /* InfoPlist.strings */; };
 		3EDAEC291E3788C700E68E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC281E3788C700E68E05 /* AppDelegate.swift */; };
 		3EDAEC2E1E3788C700E68E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEC2C1E3788C700E68E05 /* Main.storyboard */; };
 		3EDAEC311E3788C700E68E05 /* SkywellTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC2F1E3788C700E68E05 /* SkywellTest.xcdatamodeld */; };
@@ -26,7 +26,6 @@
 		3EDAEC4C1E3788C700E68E05 /* SkywellTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEC4B1E3788C700E68E05 /* SkywellTestUITests.swift */; };
 		3EDB3EF31E391310005D03B0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3EF21E391310005D03B0 /* Weather.swift */; };
 		3EDB3EF51E3915A2005D03B0 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3EF41E3915A2005D03B0 /* CarListViewController.swift */; };
-		3EDB3EF91E39F9BC005D03B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3EF81E39F9BC005D03B0 /* Location.swift */; };
 		3EDB3EFB1E3A0158005D03B0 /* MainFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3EFA1E3A0158005D03B0 /* MainFunctions.swift */; };
 		3EDB3F031E3A49D4005D03B0 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3F021E3A49D4005D03B0 /* CarListTableViewCell.swift */; };
 		3EDB3F071E3A5C93005D03B0 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3F061E3A5C93005D03B0 /* AddCarViewController.swift */; };
@@ -57,12 +56,12 @@
 		3E5F24911E3D1815002EF64F /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "../Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3ED584591E3F61C100969FED /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		3ED5845B1E3F68C000969FED /* CarImageSecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarImageSecondTableViewCell.swift; sourceTree = "<group>"; };
-		3ED584601E3F941900969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3ED584651E3F941A00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3ED584671E3F941B00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
-		3ED584681E3F941C00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		3ED5846C1E3F941E00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3ED584711E3F942300969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ED584891E3F9D1600969FED /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3ED5848E1E3F9D6B00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ED584931E3F9D6C00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ED584951E3F9D6C00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		3ED584961E3F9D6D00969FED /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3ED584971E3F9D6D00969FED /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3EDAEC251E3788C700E68E05 /* SkywellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkywellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDAEC281E3788C700E68E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EDAEC2D1E3788C700E68E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,7 +77,6 @@
 		3EDAEC4D1E3788C700E68E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EDB3EF21E391310005D03B0 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		3EDB3EF41E3915A2005D03B0 /* CarListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
-		3EDB3EF81E39F9BC005D03B0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3EDB3EFA1E3A0158005D03B0 /* MainFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFunctions.swift; sourceTree = "<group>"; };
 		3EDB3F021E3A49D4005D03B0 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
 		3EDB3F061E3A5C93005D03B0 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
@@ -145,8 +143,8 @@
 		3EDAEC271E3788C700E68E05 /* SkywellTest */ = {
 			isa = PBXGroup;
 			children = (
-				3ED584661E3F941A00969FED /* InfoPlist.strings */,
-				3ED584611E3F941900969FED /* Localizable.strings */,
+				3ED584941E3F9D6C00969FED /* InfoPlist.strings */,
+				3ED5848F1E3F9D6B00969FED /* Localizable.strings */,
 				3EDAEC281E3788C700E68E05 /* AppDelegate.swift */,
 				3EDB3EF41E3915A2005D03B0 /* CarListViewController.swift */,
 				3EDB3F081E3A6292005D03B0 /* CarImageFirstTableViewCell.swift */,
@@ -160,7 +158,6 @@
 				3EDAEC341E3788C700E68E05 /* LaunchScreen.storyboard */,
 				3E5F24941E3D1821002EF64F /* Data */,
 				3EDAEC371E3788C700E68E05 /* Info.plist */,
-				3EDB3EF81E39F9BC005D03B0 /* Location.swift */,
 				3EDB3EF21E391310005D03B0 /* Weather.swift */,
 			);
 			path = SkywellTest;
@@ -169,7 +166,8 @@
 		3EDAEC3F1E3788C700E68E05 /* SkywellTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				3ED5846D1E3F941E00969FED /* InfoPlist.strings */,
+				3ED584971E3F9D6D00969FED /* InfoPlist.strings */,
+				3ED584891E3F9D1600969FED /* InfoPlist.strings */,
 				3EDAEC401E3788C700E68E05 /* SkywellTestTests.swift */,
 				3EDAEC421E3788C700E68E05 /* Info.plist */,
 			);
@@ -179,7 +177,6 @@
 		3EDAEC4A1E3788C700E68E05 /* SkywellTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3ED584721E3F942300969FED /* InfoPlist.strings */,
 				3EDAEC4B1E3788C700E68E05 /* SkywellTestUITests.swift */,
 				3EDAEC4D1E3788C700E68E05 /* Info.plist */,
 			);
@@ -297,10 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDAEC361E3788C700E68E05 /* LaunchScreen.storyboard in Resources */,
-				3ED5845F1E3F941900969FED /* Localizable.strings in Resources */,
+				3ED5848D1E3F9D6B00969FED /* Localizable.strings in Resources */,
 				3EDAEC331E3788C700E68E05 /* Assets.xcassets in Resources */,
 				3EDAEC2E1E3788C700E68E05 /* Main.storyboard in Resources */,
-				3ED584641E3F941A00969FED /* InfoPlist.strings in Resources */,
+				3ED584921E3F9D6C00969FED /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED5846B1E3F941E00969FED /* InfoPlist.strings in Resources */,
+				3ED5848A1E3F9D1600969FED /* InfoPlist.strings in Resources */,
+				3ED584981E3F9D6D00969FED /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +314,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED584701E3F942300969FED /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +338,6 @@
 				3EDB3EFB1E3A0158005D03B0 /* MainFunctions.swift in Sources */,
 				3EDAEC311E3788C700E68E05 /* SkywellTest.xcdatamodeld in Sources */,
 				3EDAEC291E3788C700E68E05 /* AppDelegate.swift in Sources */,
-				3EDB3EF91E39F9BC005D03B0 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,34 +373,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3ED584611E3F941900969FED /* Localizable.strings */ = {
+		3ED5848F1E3F9D6B00969FED /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ED584601E3F941900969FED /* uk */,
+				3ED5848E1E3F9D6B00969FED /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		3ED584661E3F941A00969FED /* InfoPlist.strings */ = {
+		3ED584941E3F9D6C00969FED /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ED584651E3F941A00969FED /* uk */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3ED5846D1E3F941E00969FED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ED5846C1E3F941E00969FED /* uk */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3ED584721E3F942300969FED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ED584711E3F942300969FED /* uk */,
+				3ED584931E3F9D6C00969FED /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -413,7 +393,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3EDAEC2D1E3788C700E68E05 /* Base */,
-				3ED584671E3F941B00969FED /* uk */,
+				3ED584951E3F9D6C00969FED /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -422,7 +402,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3EDAEC351E3788C700E68E05 /* Base */,
-				3ED584681E3F941C00969FED /* uk */,
+				3ED584961E3F9D6D00969FED /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -24,7 +24,7 @@ class AddCarViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var descriptionLabel: UILabel!
     
     let engineData = ["2.0i.e", "3.0i.e", "4.0i.e", "5.0i.e", "5.5i.e"]
-    let transmissionData = [NSLocalizedString("manual", comment: "manual"), NSLocalizedString("automate", comment: "automate"), NSLocalizedString("burundi", comment: "burundi"), NSLocalizedString("typetronic", comment: "typetronic"),NSLocalizedString("cambodia", comment: "cambodia")]
+    let transmissionData = [NSLocalizedString("manual", comment: "manual"), NSLocalizedString("automate", comment: "automate"), NSLocalizedString("typetronic", comment: "typetronic")]
     let conditionData = [NSLocalizedString("perfect", comment: "perfect"), NSLocalizedString("good", comment: "good"), NSLocalizedString("bad", comment: "bad")]
     
     

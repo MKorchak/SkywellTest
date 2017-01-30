@@ -205,16 +205,6 @@
         <target>плохое</target>
         <note>bad</note>
       </trans-unit>
-      <trans-unit id="burundi">
-        <source>burundi</source>
-        <target>бурунди</target>
-        <note>burundi</note>
-      </trans-unit>
-      <trans-unit id="cambodia">
-        <source>cambodia</source>
-        <target>камбоджа</target>
-        <note>cambodia</note>
-      </trans-unit>
       <trans-unit id="car: ">
         <source>car: </source>
         <target>модель: </target>
