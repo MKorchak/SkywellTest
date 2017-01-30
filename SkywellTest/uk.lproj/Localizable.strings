@@ -1,0 +1,66 @@
+/* add car title */
+"Add car" = "Добавить автомобиль";
+
+/* car list title */
+"Car list" = "Список машин";
+
+/* car model placeholder */
+"Car model" = "Модель автомобиля";
+
+/* car condition placeholder */
+"Condition" = "Состояние";
+
+/* condition */
+"Condition: " = "Состояние: ";
+
+/* car engine placeholder */
+"Engine" = "Двигатель";
+
+/* engine */
+"Engine: " = "Двигатель";
+
+/* car price placeholder */
+"Price" = "Цена";
+
+/* car price */
+"Price: " = "Цена: ";
+
+/* Title of car title */
+"Title" = "Описание";
+
+/* car transmission placeholder */
+"Transmission" = "Коробка передач";
+
+/* transmission */
+"Transmission: " = "Коробка передач: ";
+
+/* automate */
+"automate" = "автомат";
+
+/* bad */
+"bad" = "плохое";
+
+/* burundi */
+"burundi" = "бурунди";
+
+/* cambodia */
+"cambodia" = "камбоджа";
+
+/* car name */
+"car: " = "модель: ";
+
+/* car description */
+"description: " = "описание: ";
+
+/* good */
+"good" = "хорошее";
+
+/* manual */
+"manual" = "ручная";
+
+/* perfect */
+"perfect" = "идеальное";
+
+/* typetronic */
+"typetronic" = "типтроник";
+

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SkywellTest/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body/>
+  </file>
+  <file original="SkywellTest/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="1F2-OZ-DuC.title">
+        <source>Car list</source>
+        <note>Class = "UINavigationItem"; title = "Car list"; ObjectID = "1F2-OZ-DuC";</note>
+      </trans-unit>
+      <trans-unit id="5jo-T7-RmN.placeholder">
+        <source>Transmission</source>
+        <note>Class = "UITextField"; placeholder = "Transmission"; ObjectID = "5jo-T7-RmN";</note>
+      </trans-unit>
+      <trans-unit id="7PW-bp-J4Z.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "7PW-bp-J4Z";</note>
+      </trans-unit>
+      <trans-unit id="44M-wT-jat.text">
+        <source>car:</source>
+        <note>Class = "UILabel"; text = "car:"; ObjectID = "44M-wT-jat";</note>
+      </trans-unit>
+      <trans-unit id="GrN-F2-N21.text">
+        <source>Price:</source>
+        <note>Class = "UILabel"; text = "Price:"; ObjectID = "GrN-F2-N21";</note>
+      </trans-unit>
+      <trans-unit id="NfG-Ow-sIH.title">
+        <source>Title</source>
+        <note>Class = "UIViewController"; title = "Title"; ObjectID = "NfG-Ow-sIH";</note>
+      </trans-unit>
+      <trans-unit id="Pzo-yI-ai1.text">
+        <source>City</source>
+        <note>Class = "UILabel"; text = "City"; ObjectID = "Pzo-yI-ai1";</note>
+      </trans-unit>
+      <trans-unit id="V9A-oA-90a.text">
+        <source>Price:</source>
+        <note>Class = "UILabel"; text = "Price:"; ObjectID = "V9A-oA-90a";</note>
+      </trans-unit>
+      <trans-unit id="VKI-an-A9q.title">
+        <source>Add car</source>
+        <note>Class = "UIViewController"; title = "Add car"; ObjectID = "VKI-an-A9q";</note>
+      </trans-unit>
+      <trans-unit id="Vxk-MM-BSs.placeholder">
+        <source>Engine </source>
+        <note>Class = "UITextField"; placeholder = "Engine "; ObjectID = "Vxk-MM-BSs";</note>
+      </trans-unit>
+      <trans-unit id="cKk-w7-aah.text">
+        <source>description:</source>
+        <note>Class = "UILabel"; text = "description:"; ObjectID = "cKk-w7-aah";</note>
+      </trans-unit>
+      <trans-unit id="eR7-2j-RKa.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "eR7-2j-RKa";</note>
+      </trans-unit>
+      <trans-unit id="eRf-pL-dXR.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "eRf-pL-dXR";</note>
+      </trans-unit>
+      <trans-unit id="gzc-uJ-SUV.title">
+        <source>Add car</source>
+        <note>Class = "UINavigationItem"; title = "Add car"; ObjectID = "gzc-uJ-SUV";</note>
+      </trans-unit>
+      <trans-unit id="iTg-hM-PCy.text">
+        <source>description:</source>
+        <note>Class = "UILabel"; text = "description:"; ObjectID = "iTg-hM-PCy";</note>
+      </trans-unit>
+      <trans-unit id="itQ-kI-kfj.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "itQ-kI-kfj";</note>
+      </trans-unit>
+      <trans-unit id="jr6-za-TSC.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "jr6-za-TSC";</note>
+      </trans-unit>
+      <trans-unit id="lC2-ax-oaE.text">
+        <source>Weather</source>
+        <note>Class = "UILabel"; text = "Weather"; ObjectID = "lC2-ax-oaE";</note>
+      </trans-unit>
+      <trans-unit id="mlX-ED-oJR.placeholder">
+        <source>Condition</source>
+        <note>Class = "UITextField"; placeholder = "Condition"; ObjectID = "mlX-ED-oJR";</note>
+      </trans-unit>
+      <trans-unit id="os1-hb-bT4.text">
+        <source>car:</source>
+        <note>Class = "UILabel"; text = "car:"; ObjectID = "os1-hb-bT4";</note>
+      </trans-unit>
+      <trans-unit id="pss-2y-faH.text">
+        <source>car:</source>
+        <note>Class = "UILabel"; text = "car:"; ObjectID = "pss-2y-faH";</note>
+      </trans-unit>
+      <trans-unit id="q8u-bP-4HT.title">
+        <source>Back</source>
+        <note>Class = "UIBarButtonItem"; title = "Back"; ObjectID = "q8u-bP-4HT";</note>
+      </trans-unit>
+      <trans-unit id="t4W-s8-lvD.text">
+        <source>Price:</source>
+        <note>Class = "UILabel"; text = "Price:"; ObjectID = "t4W-s8-lvD";</note>
+      </trans-unit>
+      <trans-unit id="tGn-Er-KzH.placeholder">
+        <source>Car model</source>
+        <note>Class = "UITextField"; placeholder = "Car model"; ObjectID = "tGn-Er-KzH";</note>
+      </trans-unit>
+      <trans-unit id="tIO-OK-QOS.placeholder">
+        <source>Price</source>
+        <note>Class = "UITextField"; placeholder = "Price"; ObjectID = "tIO-OK-QOS";</note>
+      </trans-unit>
+      <trans-unit id="x7Z-JD-UQ7.text">
+        <source>Temperature</source>
+        <note>Class = "UILabel"; text = "Temperature"; ObjectID = "x7Z-JD-UQ7";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SkywellTest/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SkywellTest/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+        <trans-unit id="Add car">
+            <source>Add car</source>
+            <target>Добавить автомобиль</target>
+            <note>add car title</note>
+        </trans-unit>
+        <trans-unit id="Car list">
+            <source>Car list</source>
+            <target>Список машин</target>
+            <note>car list title</note>
+        </trans-unit>
+        <trans-unit id="Car model">
+            <source>Car model</source>
+            <target>Модель автомобиля</target>
+            <note>car model placeholder</note>
+        </trans-unit>
+        <trans-unit id="Condition">
+            <source>Condition</source>
+            <target>Состояние</target>
+            <note>car condition placeholder</note>
+        </trans-unit>
+        <trans-unit id="Condition: ">
+            <source>Condition: </source>
+            <target>Состояние: </target>
+            <note>condition</note>
+        </trans-unit>
+        <trans-unit id="Engine">
+            <source>Engine</source>
+            <target>Двигатель</target>
+            <note>car engine placeholder</note>
+        </trans-unit>
+        <trans-unit id="Engine: ">
+            <source>Engine: </source>
+            <target>Двигатель</target>
+            <note>engine</note>
+        </trans-unit>
+        <trans-unit id="Price">
+            <source>Price</source>
+            <target>Цена</target>
+            <note>car price placeholder</note>
+        </trans-unit>
+        <trans-unit id="Price: ">
+            <source>Price: </source>
+            <target>Цена: </target>
+            <note>car price</note>
+        </trans-unit>
+        <trans-unit id="Title">
+            <source>Title</source>
+            <target>Описание</target>
+            <note>Title of car title</note>
+        </trans-unit>
+        <trans-unit id="Transmission">
+            <source>Transmission</source>
+            <target>Коробка передач</target>
+            <note>car transmission placeholder</note>
+        </trans-unit>
+        <trans-unit id="Transmission: ">
+            <source>Transmission: </source>
+            <target>Коробка передач: </target>
+            <note>transmission</note>
+        </trans-unit>
+        <trans-unit id="automate">
+            <source>automate</source>
+            <target>автомат</target>
+            <note>automate</note>
+        </trans-unit>
+        <trans-unit id="bad">
+            <source>bad</source>
+            <target>плохое</target>
+            <note>bad</note>
+        </trans-unit>
+        <trans-unit id="burundi">
+            <source>burundi</source>
+            <target>бурунди</target>
+            <note>burundi</note>
+        </trans-unit>
+        <trans-unit id="cambodia">
+            <source>cambodia</source>
+            <target>камбоджа</target>
+            <note>cambodia</note>
+        </trans-unit>
+        <trans-unit id="car: ">
+            <source>car: </source>
+            <target>модель: </target>
+            <note>car name</note>
+        </trans-unit>
+        <trans-unit id="description: ">
+            <source>description: </source>
+            <target>описание: </target>
+            <note>car description</note>
+        </trans-unit>
+        <trans-unit id="good">
+            <source>good</source>
+            <target>хорошее</target>
+            <note>good</note>
+        </trans-unit>
+        <trans-unit id="manual">
+            <source>manual</source>
+            <target>ручная</target>
+            <note>manual</note>
+        </trans-unit>
+        <trans-unit id="perfect">
+            <source>perfect</source>
+            <target>идеальное</target>
+            <note>perfect</note>
+        </trans-unit>
+        <trans-unit id="typetronic">
+            <source>typetronic</source>
+            <target>типтроник</target>
+            <note>typetronic</note>
+        </trans-unit>
+    </body>
+  </file>
+  <file original="SkywellTestTests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SkywellTestUITests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
