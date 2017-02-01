@@ -155,7 +155,7 @@ class CarListViewController: UIViewController, WeatherGetterDelegate, UITableVie
         default:
             carListTableView.reloadData()
         }
-        cars = controller.fetchedObjects as! [Car]
+        cars = (controller.fetchedObjects as? [Car])!
     }
     
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
@@ -192,7 +192,7 @@ class CarListViewController: UIViewController, WeatherGetterDelegate, UITableVie
                 } catch {
                     print("Error with request: \(error)")
                 }
-                self.weatherData = NSEntityDescription.insertNewObject(forEntityName: "WeatherData", into: managedObjectContext) as! WeatherData
+                self.weatherData = NSEntityDescription.insertNewObject(forEntityName: "WeatherData", into: managedObjectContext) as? WeatherData
                 
                 self.weatherData.city = self.cityLabel.text!
                 self.weatherData.temperature = self.temperatureLabel.text!
@@ -247,11 +247,7 @@ class CarListViewController: UIViewController, WeatherGetterDelegate, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CarCell", for: indexPath) as! CarListTableViewCell
         let car = cars[indexPath.row]
-        cell.carImage?.image = UIImage(data: car.mainPhoto as! Data)
-        cell.carModel.text = car.carModel
-        cell.carPrice.text = car.price
-        cell.backgroundColor = UIColor(hexString: "#8BD200")
-        cell.tintColor = UIColor.white
+        cell.makeCell(image: UIImage(data: car.mainPhoto as! Data)!, model: car.carModel!, price: car.price!)
 
         return cell
     }
@@ -262,9 +258,9 @@ class CarListViewController: UIViewController, WeatherGetterDelegate, UITableVie
             self.cars.remove(at: indexPath.row)
             
             if let managedObjectContext = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-                let carToDelete = self.fetchResultController.object(at: indexPath) as! Car
+                let carToDelete = self.fetchResultController.object(at: indexPath) as? Car
                 
-                managedObjectContext.delete(carToDelete)
+                managedObjectContext.delete(carToDelete!)
                 tableView.deleteRows(at: [indexPath], with: .fade)
                 do {
                     try managedObjectContext.save()

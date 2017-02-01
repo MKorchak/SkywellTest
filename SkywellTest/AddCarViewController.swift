@@ -214,8 +214,8 @@ class AddCarViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     private func getContext() -> NSManagedObjectContext? {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        return appDelegate.persistentContainer.viewContext
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        return appDelegate?.persistentContainer.viewContext
     }
     
     func deleteCar() {
@@ -266,7 +266,7 @@ class AddCarViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         if let managedObjectContext = getContext() {
             
-            self.car = NSEntityDescription.insertNewObject(forEntityName: "Car", into: managedObjectContext) as! Car
+            self.car = NSEntityDescription.insertNewObject(forEntityName: "Car", into: managedObjectContext) as? Car
             
             self.car.carModel = model
             self.car.price = price

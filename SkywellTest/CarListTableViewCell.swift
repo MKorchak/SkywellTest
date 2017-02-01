@@ -20,12 +20,20 @@ class CarListTableViewCell: UITableViewCell {
         // Initialization code
         carLabel.text = NSLocalizedString("car: ", comment: "car name")
         priceLabel.text = NSLocalizedString("Price: ", comment: "car price")
+        self.backgroundColor = UIColor(hexString: "#8BD200")
+        self.tintColor = UIColor.white
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func makeCell(image: UIImage, model: String, price: String) {
+        carImage.image = image
+        carModel.text = model
+        carPrice.text = price
     }
 
 }
