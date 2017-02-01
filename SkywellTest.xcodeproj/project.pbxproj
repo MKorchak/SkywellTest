@@ -30,7 +30,6 @@
 		3EDB3F031E3A49D4005D03B0 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3F021E3A49D4005D03B0 /* CarListTableViewCell.swift */; };
 		3EDB3F071E3A5C93005D03B0 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3F061E3A5C93005D03B0 /* AddCarViewController.swift */; };
 		3EDB3F091E3A6292005D03B0 /* CarImageFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB3F081E3A6292005D03B0 /* CarImageFirstTableViewCell.swift */; };
-		3EE817A91E42340F0060919F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE817A81E42340F0060919F /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +81,6 @@
 		3EDB3F021E3A49D4005D03B0 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
 		3EDB3F061E3A5C93005D03B0 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 		3EDB3F081E3A6292005D03B0 /* CarImageFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarImageFirstTableViewCell.swift; sourceTree = "<group>"; };
-		3EE817A81E42340F0060919F /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +147,6 @@
 				3ED5848F1E3F9D6B00969FED /* Localizable.strings */,
 				3EDAEC281E3788C700E68E05 /* AppDelegate.swift */,
 				3EDB3EF41E3915A2005D03B0 /* CarListViewController.swift */,
-				3EE817A81E42340F0060919F /* Location.swift */,
 				3EDB3F081E3A6292005D03B0 /* CarImageFirstTableViewCell.swift */,
 				3EDB3EFA1E3A0158005D03B0 /* MainFunctions.swift */,
 				3EDAEC2C1E3788C700E68E05 /* Main.storyboard */,
@@ -334,7 +331,6 @@
 				3E5F248F1E3CEAC4002EF64F /* WeatherData+CoreDataProperties.swift in Sources */,
 				3E5F24921E3D1815002EF64F /* Car+CoreDataClass.swift in Sources */,
 				3EDB3F031E3A49D4005D03B0 /* CarListTableViewCell.swift in Sources */,
-				3EE817A91E42340F0060919F /* Location.swift in Sources */,
 				3EDB3F071E3A5C93005D03B0 /* AddCarViewController.swift in Sources */,
 				3EDB3F091E3A6292005D03B0 /* CarImageFirstTableViewCell.swift in Sources */,
 				3ED5845C1E3F68C000969FED /* CarImageSecondTableViewCell.swift in Sources */,
