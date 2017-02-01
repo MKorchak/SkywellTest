@@ -26,7 +26,7 @@ class CarListViewController: UIViewController, WeatherGetterDelegate, UITableVie
     var cars: [Car] = []
     var fetchResultController: NSFetchedResultsController<NSFetchRequestResult>!
     
-    func getLocation() {
+    private func getLocation() {
         
         guard CLLocationManager.locationServicesEnabled() else {
             showSimpleAlert(

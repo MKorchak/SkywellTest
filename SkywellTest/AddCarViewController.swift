@@ -218,7 +218,7 @@ class AddCarViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return appDelegate?.persistentContainer.viewContext
     }
     
-    func deleteCar() {
+    private func deleteCar() {
         let fetchRequest: NSFetchRequest<Car> = Car.fetchRequest()
         do {
             let searchResults = try (getContext()?.fetch(fetchRequest))!

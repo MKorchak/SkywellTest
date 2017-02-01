@@ -37,7 +37,7 @@ class CarImageSecondTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func makeUI() {
+    private func makeUI() {
         resetUI()
         
         self.mainView = makeView(mainViewFrame, parent: self)
@@ -48,7 +48,7 @@ class CarImageSecondTableViewCell: UITableViewCell {
         
     }
     
-    func resetUI() {
+    private func resetUI() {
         self.mainView?.removeFromSuperview()
         self.mainView = nil
         
